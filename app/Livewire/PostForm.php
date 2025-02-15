@@ -105,7 +105,7 @@ class PostForm extends Component
             }
         }
   
-        return $this->redirect('/posts', navigate:true);
+        return $this->redirect('/', navigate:true);
 
     }
  
